@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "\"THIS WEBSITE ONLY FOR PRACTISE ADN DEVELOPE MYSELF \"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"npm run lite-server",
+    "live":"npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AMMAR187@bitbucket.org/AMMAR187/projects.git"
+  },
+  "keywords": [
+    "BOOTSTRAP",
+    "TEMPLATE"
+  ],
+  "author": "AMMAR MAHMOUD",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/AMMAR187/projects#readme",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
