@@ -5,8 +5,10 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server",
-    "live":"npm run lite"
+    "lite": "lite-server",
+    "live": "npm run lite",
+    "scss": "scss/scss.main",
+    "css":  "css/main.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/AMMAR187/projects#readme",
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "lite-server": "^2.4.0"
   }
 }
