@@ -1,0 +1,47 @@
+/* Carousel */
+.carousel{
+	margin-bottom: 20px;
+}
+.carousel img{
+	padding: 3px;
+	@include add-border(1px,#cccccc,all);
+}
+/* Tabs */
+ .tab-pane{
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    @include border-radius(5px);
+   
+}
+
+.tab-primary .nav-tabs > li.active > a,
+.tab-primary .nav-tabs > li.active > a:hover,
+.tab-primary .nav-tabs > li.active > a:focus,
+.tab-content .tab-pane{
+	@include add-background($primary-color);
+				
+}
+
+.tab-light .nav-tabs > li.active > a,
+.tab-light .nav-tabs > li.active > a:hover,
+.tab-light .nav-tabs > li.active > a:focus,
+.tab-light .tab-content .tab-pane{
+	@include add-background($light-color);
+				
+}
+.tab-dark .nav-tabs > li.active > a,
+.tab-dark .nav-tabs > li.active > a:hover,
+.tab-dark .nav-tabs > li.active > a:focus,
+.tab-dark .tab-content .tab-pane{
+	@include add-background($dark-color);
+				
+}
+.tab-secondary .nav-tabs > li.active > a,
+.tab-secondary .nav-tabs > li.active > a:hover,
+.tab-secondary .nav-tabs > li.active > a:focus,
+.tab-secondary .tab-content .tab-pane{
+	@include add-background($secondary-color);
+				
+}
+
+
